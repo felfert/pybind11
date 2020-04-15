@@ -57,10 +57,10 @@ endif()
 
 if(${CMAKE_VERSION} VERSION_LESS "3.12.4")
     set(PythonLibsNew_FIND_MODULE "PythonInterp")
-    message(STATUS "Using FindPythonInterp"
+    message(STATUS "Using FindPythonInterp")
 else()
     set(PythonLibsNew_FIND_MODULE "Python3")
-    message(STATUS "Using FindPython3"
+    message(STATUS "Using FindPython3")
 endif()
 
 # Use the Python interpreter to find the libs.
